@@ -2,6 +2,7 @@
 On startup, connect to the "ping_pong" app.
 */
 let port = browser.runtime.connectNative("ping_pong");
+console.log(`port -> `, port);
 
 /*
 Listen for messages from the app.
