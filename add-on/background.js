@@ -8,7 +8,9 @@ console.log(`port -> `, port);
 Listen for messages from the app.
 */
 port.onMessage.addListener((response) => {
-  console.log("Received: " + response);
+  console.log("Received: ");
+  console.log(response);
+
 });
 
 /*
